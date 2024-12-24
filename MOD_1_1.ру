@@ -1,0 +1,30 @@
+# Уровень 1
+
+#a = ((5+(7*5/8)))/3**5
+#print ('Результат вычисления Уровня 1 = ',a)
+
+# уровень 2
+'''
+v=int(input('Введите скорость: '))
+t=int(input('Введите время: '))
+s=v*t
+if s>109:
+	s=s-109
+print(v, end=' ')
+print(s)
+print(t)
+'''
+
+#Уровень 3
+x=float(input('Введите 1е число: '))
+y=float(input('Введите 2е число: '))
+
+if x>y:
+	print(x, end=' ')
+	print('max = ',x)
+	print(y)
+
+else:
+	print(x, end=' ')
+	print('max = ',y)
+	print(y)

@@ -1,0 +1,54 @@
+#задача 1
+'''
+x=int(input('Введите 1е число: '))
+y=int(input('Введите 2е число: '))
+z=int(input('Введите 3е число: '))
+a=0
+
+if x==y & x==z:
+	a+=3
+	print(a)
+elif x==y or x==z or y==z:
+	a=a+2
+	print(a)
+
+else:
+	print(a)
+	'''
+#задача 2
+'''
+x1=int(input('Введите координаты по горизонтали 1 ладьи: '))
+y1=int(input('Введите координаты по вертикали 1 ладьи: '))
+x2=int(input('Введите координаты по горизонтали 2 ладьи: '))
+y2=int(input('Введите координаты по вертикали 2 ладьи: '))
+if x1>8 or x1<0:
+	print('Вы вышли за границы доски')
+	exit()
+if y1>8 or y1<0:
+	print('Вы вышли за границы доски')
+	exit()
+if x2>8 or x2<0:
+	print('Вы вышли за границы доски')
+	exit()
+if y2>8 or y2<0:
+	print('Вы вышли за границы доски')
+	exit()	
+if x1==x2:
+	print('YES')
+elif (y1==y2):
+	print('YES')
+else:
+	print('NO')
+	'''
+#задача 3
+'''
+pswd=""
+while True:
+	pswd=input('Введи пароль: ')
+	if len(pswd)<=8:
+		print('слишком короткий пароль')
+		continue
+	else: 
+		break
+print(pswd)
+'''
